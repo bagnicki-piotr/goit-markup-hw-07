@@ -40,8 +40,11 @@
 }
 .features {
    padding: 94px 0px 0px 0px;
-   width: 1200px;
-   margin: 0 auto;
+
+   &__container {
+      width: 1200px;
+      margin: 0 auto;
+   }
    &__items {
       display: flex;
       justify-content: space-between;
@@ -75,8 +78,10 @@
 }
 .about {
    padding: 94px 0px;
-   width: 1200px;
-   margin: 0 auto;
+   &__container {
+      width: 1200px;
+      margin: 0 auto;
+   }
    &__heading {
       font-weight: $fw-bold;
       font-size: 36px;

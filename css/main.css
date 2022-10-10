@@ -31,14 +31,6 @@ ul {
   margin: 0;
 }
 
-.section {
-  padding: 94px 0px;
-}
-
-.section-diff {
-  padding: 94px 0px 0px 0px;
-}
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -70,11 +62,6 @@ ul {
 }
 .header__logo-blue {
   color: #2196f3;
-}
-.header__logo-white {
-  color: #fff;
-  padding-bottom: 20px;
-  display: block;
 }
 .header__nav {
   display: flex;
@@ -173,6 +160,8 @@ ul {
 
 .features {
   padding: 94px 0px 0px 0px;
+}
+.features__container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -209,6 +198,8 @@ ul {
 
 .about {
   padding: 94px 0px;
+}
+.about__container {
   width: 1200px;
   margin: 0 auto;
 }
